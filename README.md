@@ -1,7 +1,7 @@
 # Sistema de Reserva de Excursiones
 Complejo Turístico: Agencia de Turismo.
 
-Desarrollo de "Proyecto" de Taller de Programación Aplicada.
+Desarrollo de "Proyecto" de Taller de Programación Aplicada (Sprint 1).
 
 Trabajo hecho en Python, bajo el framework PyQt6.
 
