@@ -6,18 +6,21 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(636, 626)
 
-        
         # Importar el dataset de los países
         self.ds = pandas.read_csv('Dataset/paises.csv')
 
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        
+        # horizontalLayoutWidget_2
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(parent=self.centralwidget)
         self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(300, 60, 371, 221))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_2)
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        
+        # widget_4
         self.widget_4 = QtWidgets.QWidget(parent=self.horizontalLayoutWidget_2)
         self.widget_4.setObjectName("widget_4")
         self.verticalLayoutWidget_2 = QtWidgets.QWidget(parent=self.widget_4)
@@ -26,6 +29,8 @@ class Ui_MainWindow(object):
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
+        
+        # Labels en verticalLayout_2
         self.label_7 = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
         self.label_7.setObjectName("label_7")
         self.verticalLayout_2.addWidget(self.label_7)
@@ -38,9 +43,13 @@ class Ui_MainWindow(object):
         self.label_10 = QtWidgets.QLabel(parent=self.verticalLayoutWidget_2)
         self.label_10.setObjectName("label_10")
         self.verticalLayout_2.addWidget(self.label_10)
+        
+        # widget_5
         self.widget_5 = QtWidgets.QWidget(parent=self.widget_4)
         self.widget_5.setGeometry(QtCore.QRect(70, 0, 241, 211))
         self.widget_5.setObjectName("widget_5")
+        
+        # LineEdits y ComboBox en widget_5
         self.lineEdit_6 = QtWidgets.QLineEdit(parent=self.widget_5)
         self.lineEdit_6.setGeometry(QtCore.QRect(10, 170, 211, 21))
         self.lineEdit_6.setText("")
@@ -49,9 +58,7 @@ class Ui_MainWindow(object):
         self.lineEdit_7.setGeometry(QtCore.QRect(10, 120, 211, 21))
         self.lineEdit_7.setText("")
         self.lineEdit_7.setObjectName("lineEdit_7")
-
-
-        # Género
+        
         self.comboBox = QtWidgets.QComboBox(parent=self.widget_5)
         self.comboBox.setGeometry(QtCore.QRect(10, 70, 131, 22))
         self.comboBox.setObjectName("comboBox")
@@ -59,19 +66,18 @@ class Ui_MainWindow(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
-
-
+        
         self.lineEdit_4 = QtWidgets.QLineEdit(parent=self.widget_5)
         self.lineEdit_4.setGeometry(QtCore.QRect(10, 20, 121, 21))
         self.lineEdit_4.setText("")
         self.lineEdit_4.setObjectName("lineEdit_4")
+        
         self.horizontalLayout_2.addWidget(self.widget_4)
+        
         self.label_6 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(20, 330, 91, 16))
         self.label_6.setObjectName("label_6")
-
-
-        # Nacionalidad
+        
         self.comboBox_2 = QtWidgets.QComboBox(parent=self.centralwidget)
         self.comboBox_2.setGeometry(QtCore.QRect(110, 330, 141, 22))
         self.comboBox_2.setMaximumSize(QtCore.QSize(16777215, 22))
@@ -79,14 +85,15 @@ class Ui_MainWindow(object):
         self.comboBox_2.addItem('Seleccione País')
         self.ds['nombre'] = self.ds['nombre'].astype(str)
         self.comboBox_2.addItems(self.ds['nombre'].unique())
-
-
+        
         self.pushButton = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(270, 580, 131, 24))
         self.pushButton.setObjectName("pushButton")
+        
         self.calendarWidget = QtWidgets.QCalendarWidget(parent=self.centralwidget)
         self.calendarWidget.setGeometry(QtCore.QRect(350, 300, 272, 190))
         self.calendarWidget.setObjectName("calendarWidget")
+        
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(10, 10, 231, 31))
         font = QtGui.QFont()
@@ -95,12 +102,15 @@ class Ui_MainWindow(object):
         font.setBold(True)
         self.label.setFont(font)
         self.label.setObjectName("label")
+        
         self.horizontalLayoutWidget = QtWidgets.QWidget(parent=self.centralwidget)
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(10, 60, 371, 221))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
+        
+        # widget
         self.widget = QtWidgets.QWidget(parent=self.horizontalLayoutWidget)
         self.widget.setObjectName("widget")
         self.verticalLayoutWidget = QtWidgets.QWidget(parent=self.widget)
@@ -109,6 +119,8 @@ class Ui_MainWindow(object):
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
+        
+        # Labels en verticalLayout
         self.label_3 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
         self.label_3.setObjectName("label_3")
         self.verticalLayout.addWidget(self.label_3)
@@ -121,9 +133,13 @@ class Ui_MainWindow(object):
         self.label_5 = QtWidgets.QLabel(parent=self.verticalLayoutWidget)
         self.label_5.setObjectName("label_5")
         self.verticalLayout.addWidget(self.label_5)
+        
+        # widget_2
         self.widget_2 = QtWidgets.QWidget(parent=self.widget)
         self.widget_2.setGeometry(QtCore.QRect(120, 0, 151, 211))
         self.widget_2.setObjectName("widget_2")
+        
+        # LineEdits y DateEdit en widget_2
         self.dateEdit = QtWidgets.QDateEdit(parent=self.widget_2)
         self.dateEdit.setGeometry(QtCore.QRect(10, 120, 121, 21))
         self.dateEdit.setObjectName("dateEdit")
@@ -137,20 +153,27 @@ class Ui_MainWindow(object):
         self.lineEdit_3 = QtWidgets.QLineEdit(parent=self.widget_2)
         self.lineEdit_3.setGeometry(QtCore.QRect(10, 170, 121, 21))
         self.lineEdit_3.setObjectName("lineEdit_3")
+        
         self.horizontalLayout.addWidget(self.widget)
+        
         self.label_11 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_11.setGeometry(QtCore.QRect(20, 370, 291, 16))
         self.label_11.setObjectName("label_11")
+        
         self.label_12 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_12.setGeometry(QtCore.QRect(10, 390, 321, 16))
         self.label_12.setObjectName("label_12")
+        
         self.pushButton_2 = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButton_2.setGeometry(QtCore.QRect(140, 500, 75, 24))
         self.pushButton_2.setObjectName("pushButton_2")
+        
         self.treeView = QtWidgets.QTreeView(parent=self.centralwidget)
         self.treeView.setGeometry(QtCore.QRect(40, 420, 271, 71))
         self.treeView.setObjectName("treeView")
+        
         MainWindow.setCentralWidget(self.centralwidget)
+        
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
