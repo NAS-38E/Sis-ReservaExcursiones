@@ -6,7 +6,7 @@ class Ui_Form(object):
         Form.setObjectName("Form")
         Form.resize(265, 307)
         self.label = QtWidgets.QLabel(parent=Form)
-        self.label.setGeometry(QtCore.QRect(20, 10, 61, 21))
+        self.label.setGeometry(QtCore.QRect(20, 10, 161, 21))
         font = QtGui.QFont()
         font.setFamily("Arial")
         font.setPointSize(12)
@@ -46,11 +46,11 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
-        self.label.setText(_translate("Form", "Login"))
+        Form.setWindowTitle(_translate("Form", "Ventana de inicio de sesión"))
+        self.label.setText(_translate("Form", "Inicio de sesión"))
         self.label_2.setText(_translate("Form", "Correo"))
         self.label_3.setText(_translate("Form", "Contraseña"))
-        self.pushButton.setText(_translate("Form", "Sign Up"))
+        self.pushButton.setText(_translate("Form", "Iniciar sesión"))
 
 
 if __name__ == "__main__":
