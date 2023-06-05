@@ -19,9 +19,12 @@ Primero hay que descargar el repositorio desde la pestaña `<> Code` (de color v
 
 ## **Repositorio local**
 
-Ya entrando a la carpeta creada al haber descomprimido el `ZIP` tendremos que entrar a la línea de comandos, en específico desde la carpeta descomprimida, hacer click derecho dentro y clickear `Abrir en Terminal`, abriéndose así el `CMD` de Windows en la dirección indicada. Para asegurarse de que estés en la ubicación necesaria, debes fijarte de que la dirección sea `...\Sis-ReservaExcursiones>`
+Ya entrando a la carpeta creada al haber descomprimido el `ZIP` tendremos que entrar a la línea de comandos, en específico desde la carpeta descomprimida, hacer click derecho dentro y clickear `Abrir en Terminal`, abriéndose así el `CMD` de Windows en la dirección indicada. Para asegurarse de que estés en la ubicación necesaria, debes fijarte de que la dirección sea:
+> ...\Sis-ReservaExcursiones>
 
 ## **Ejecución**
 
 Para lograr ejecutar este programa debemos ingresar en el `CMD` lo siguiente:
-> python Codigos\main.py
+> ...\Sis-ResrvaExcursiones> python Codigos\main.py
+
+¡Felicidades, ejecutaste el programa!
