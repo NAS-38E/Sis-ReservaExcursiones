@@ -25,6 +25,6 @@ Ya entrando a la carpeta creada al haber descomprimido el `ZIP` tendremos que en
 ## **Ejecución**
 
 Para lograr ejecutar este programa debemos ingresar en el `CMD` lo siguiente:
-> ...\Sis-ResrvaExcursiones> python Codigos\main.py
+> ...\Sis-ReservaExcursiones> python Codigos\main.py
 
 ¡Felicidades, ejecutaste el programa!
