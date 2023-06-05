@@ -11,12 +11,18 @@ Grupo 9: Gerardo Cerón, Dante Farfán, Massimo Larger, Diego Molina, Daniel Sep
 
 # **Documentación**
 
+Éste es el manual de usuario para el `Sistema de Reserva de Excursiones`.
+
 ## **Diagramas**
 
+Diagramas realizados para tener una base en la que crear el programa.
+
 ### **Diagrama de Clases**
+
 ![Diagrama de clases](Documentacion/excurcion.drawio.png)
 
 ### **Mockup**
+
 ![Mockup1](Documentacion/mockup-principal.png)
 
 ![Mockup2](Documentacion/Copia%20de%20MockupEnsayo-Página-2.png)
