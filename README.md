@@ -12,11 +12,11 @@ Grupo 9: Gerardo Cerón, Dante Farfán, Massimo Larger, Diego Molina, Daniel Sep
 # **Documentación**
 
 ## **Diagramas**
-!(Documentacion/excurcion.drawio.png)
+![Diagrama de clases](Documentacion/excurcion.drawio.png)
 
-!(Documentacion/Untitled Diagram.png)
+![Mockup1](Documentacion/Untitled Diagram.png)
 
-!(Documentacion/Copia de MockupEnsayo-Página-2.png)
+![Mockup2](Documentacion/Copia de MockupEnsayo-Página-2.png)
 
 
 ## **Instrucciones**
