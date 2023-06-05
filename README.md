@@ -11,18 +11,27 @@ Grupo 9: Gerardo Cerón, Dante Farfán, Massimo Larger, Diego Molina, Daniel Sep
 
 # **Documentación**
 
+## **Diagramas**
+Documentacion/excurcion.drawio.png
+
+Documentacion/Untitled Diagram.png
+
+Documentacion/Copia de MockupEnsayo-Página-2.png
+
+
+## **Instrucciones**
 Ésto es una guía de usuario para poder ejecutar el programa, el cuál se recomienda seguir paso por paso para minimizar los problemas que se puedan generar durante la ejecución. Cabe recalcar que se asumirá que se tiene `Python` ya instalado, además de que éste será en su última versión estable.
 
-## **Clonar**
+### **Clonar**
 
 Primero hay que descargar el repositorio desde la pestaña `<> Code` (de color verde) y seleccionando el `Download ZIP`. Al finalizar la descarga hay que descomprimir el contenido y entrar a la carpeta creada.
 
-## **Repositorio local**
+### **Repositorio local**
 
 Ya entrando a la carpeta creada al haber descomprimido el `ZIP` tendremos que entrar a la línea de comandos, en específico desde la carpeta descomprimida, hacer click derecho dentro y clickear `Abrir en Terminal`, abriéndose así el `CMD` de Windows en la dirección indicada. Para asegurarse de que estés en la ubicación necesaria, debes fijarte de que la dirección sea:
 > ...\Sis-ReservaExcursiones>
 
-## **Ejecución**
+### **Ejecución**
 
 Para lograr ejecutar este programa debemos ingresar en el `CMD` lo siguiente:
 > ...\Sis-ReservaExcursiones> python Codigos\main.py
