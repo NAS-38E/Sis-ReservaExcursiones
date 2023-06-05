@@ -13,6 +13,16 @@ Grupo 9: Gerardo Cerón, Dante Farfán, Massimo Larger, Diego Molina, Daniel Sep
 
 Éste es el manual de usuario para el `Sistema de Reserva de Excursiones`.
 
+# **Índice**
+
+1. [Diagramas](#diagramas)
+  1. [Diagrama de Clases](#diagrama-de-clases)
+  2. [Mockup](#mockup)
+2. [Instrucciones](#instrucciones)
+  1. [Clonar](#clonar)
+  2. [Repositorio Local](#repositorio-local)
+  3. [Ejecución](#ejecución)
+
 ## **Diagramas**
 
 Diagramas realizados para tener una base en la que crear el programa.
@@ -35,7 +45,7 @@ Diagramas realizados para tener una base en la que crear el programa.
 
 Primero hay que descargar el repositorio desde la pestaña `<> Code` (de color verde) y seleccionando el `Download ZIP`. Al finalizar la descarga hay que descomprimir el contenido y entrar a la carpeta creada.
 
-### **Repositorio local**
+### **Repositorio Local**
 
 Ya entrando a la carpeta creada al haber descomprimido el `ZIP` tendremos que entrar a la línea de comandos, en específico desde la carpeta descomprimida, hacer click derecho dentro y clickear `Abrir en Terminal`, abriéndose así el `CMD` de Windows en la dirección indicada. Para asegurarse de que estés en la ubicación necesaria, debes fijarte de que la dirección sea:
 > ...\Sis-ReservaExcursiones>
