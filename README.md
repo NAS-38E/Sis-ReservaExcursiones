@@ -21,7 +21,8 @@ Grupo 9: Gerardo Cerón, Dante Farfán, Massimo Larger, Diego Molina, Daniel Sep
 2. [Instrucciones](#instrucciones)
     1. [Clonar](#clonar)
     2. [Repositorio Local](#repositorio-local)
-    3. [Ejecución](#ejecución)
+    3. [Instalar librerías necesarias](#instalar-librerías-necesarias)
+    4. [Ejecución](#ejecución)
 
 ## **Diagramas**
 
