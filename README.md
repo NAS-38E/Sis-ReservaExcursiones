@@ -25,4 +25,4 @@ Ya entrando a la carpeta creada al haber descomprimido el `ZIP` tendremos que en
 
 Para lograr ejecutar este programa debemos ingresar en el `CMD` lo siguiente:
 
-`python Codigos\main`
+`python Codigos\main.py`
