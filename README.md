@@ -16,12 +16,12 @@ Grupo 9: Gerardo Cerón, Dante Farfán, Massimo Larger, Diego Molina, Daniel Sep
 # **Índice**
 
 1. [Diagramas](#diagramas)
-    1. [Diagrama de Clases](##diagrama-de-clases)
-    2. [Mockup](##mockup)
+    1. [Diagrama de Clases](#diagrama-de-clases)
+    2. [Mockup](#mockup)
 2. [Instrucciones](#instrucciones)
-    1. [Clonar](##clonar)
-    2. [Repositorio Local](##repositorio-local)
-    3. [Ejecución](##ejecución)
+    1. [Clonar](#clonar)
+    2. [Repositorio Local](#repositorio-local)
+    3. [Ejecución](#ejecución)
 
 ## **Diagramas**
 
