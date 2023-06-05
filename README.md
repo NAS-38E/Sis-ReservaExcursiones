@@ -54,7 +54,9 @@ Ya entrando a la carpeta creada al haber descomprimido el `ZIP` tendremos que en
 
 Para lograr ejecutar este programa debemos ingresar en el `CMD` lo siguiente:
 > ...\Sis-ReservaExcursiones> python Codigos\FormulariodeReserva.py
+
 > ...\Sis-ReservaExcursiones> python Codigos\FormulariodeReservaRegistrados.py
+
 > ...\Sis-ReservaExcursiones> python Codigos\IniciodeSesion.py
 
 ¡Felicidades, ejecutaste el programa!
